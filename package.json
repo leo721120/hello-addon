@@ -1,0 +1,47 @@
+{
+  "name": "@leo/hello-addon",
+  "version": "0.0.0",
+  "description": "example for node.js addon",
+  "scripts": {
+    "start": "node lib/app",
+    "build": "tsc",
+    "test": "jest",
+    "gyp": "node-gyp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo721120/hello-addon.git"
+  },
+  "author": "leojan@alum.ccu.edu.tw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo721120/hello-addon/issues"
+  },
+  "homepage": "https://github.com/leo721120/hello-addon#readme",
+  "gypfile": true,
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.6",
+    "bindings": "^1.5.0",
+    "jest": "^24.9.0",
+    "nan": "^2.14.0",
+    "node-gyp": "^6.1.0",
+    "typescript": "^3.7.4",
+    "windows-build-tools": "^5.2.2"
+  },
+  "dependencies": {},
+  "jest": {
+    "browser": false,
+    "testMatch": [
+      "**/test/**/*.[j]s?(x)"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 60,
+        "statements": 50
+      }
+    }
+  }
+}
