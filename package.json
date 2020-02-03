@@ -4,6 +4,7 @@
   "description": "example for node.js addon",
   "scripts": {
     "start": "node lib/app",
+    "cmake": "cmake-js",
     "build": "tsc",
     "test": "jest",
     "gyp": "node-gyp"
@@ -23,6 +24,7 @@
     "@types/jest": "^24.0.25",
     "@types/node": "^13.1.6",
     "bindings": "^1.5.0",
+    "cmake-js": "^6.0.0",
     "jest": "^24.9.0",
     "nan": "^2.14.0",
     "node-gyp": "^6.1.0",

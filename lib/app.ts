@@ -1,4 +1,4 @@
-const lib = require('../out/hello') as {
+const lib = require('./hello.node') as {
     hello(): string
 }
 

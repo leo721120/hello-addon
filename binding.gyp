@@ -18,7 +18,7 @@
       "copies":
       [
         {
-            'destination': '<(module_root_dir)/out',
+            'destination': '<(module_root_dir)/lib',
             'files': ['<(module_root_dir)/build/Release/hello.node']
         },
       ],
